@@ -33,8 +33,8 @@ public class AppTest
      */
     public void testApp()
     {
-    	assertTrue( App.stelleimalphabet('Z') == 26 );
-    	assertTrue( App.shift('A', 2)== 'D') ;
+    	assertTrue( App.StelleImAlphabet('Z') == 26);
+    	assertTrue( App.Shift('Y', 2) == 'A');
         assertTrue( true );
     }
 }
